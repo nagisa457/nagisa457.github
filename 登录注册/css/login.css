@@ -1,0 +1,112 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 88px;
+   
+}
+
+#header .h_center{
+    width: 1200px;
+    height: 88px;
+
+    margin: 0 auto;
+}
+#header .h_center img{
+    float: left;
+    height: 80px;
+    width: 120px;
+    margin-top: 5px;
+}
+#header .h_center p{
+    float: left;
+    text-align: center;
+    width: 880px;
+    font-size: 10px;
+    border: 1px solid yellow;
+    margin-top: 20px;
+    margin-left: 80px;
+    color: blue;
+    background: pink;
+    padding: 3px;
+}
+
+#login_body{
+    height: 600px;
+    background-image: url("");
+    background-position: center;
+    background-size: 1000px 600px;
+}
+#login_body .login_b_center{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+#login_body .login_bg{
+    width: 350px;
+    height: 351px;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    right: -10px;
+    top: 80px;
+    padding: 30px;
+
+}
+#login div{
+    height: 40px;
+    margin-top: 20px;
+}
+#login span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color:blue;
+    float: left;
+    border: 1px gray;
+}
+#login .userName span{
+    background-image:url("file:///C:\Users\ryt\Desktop\个人资源小站\ea88c8c7e0ff4a5408802fd4032c923.jpg");
+    background-image: url("../images/your-image.jpg");
+}
+#login .password span{
+    background-image: src("file:///C:\Users\ryt\Desktop\个人资源小站\密码.jpg");
+}
+
+#login input{
+    width: 250px;
+    height: 40px;
+    float: left;
+}
+#login .login_btn input{
+    background-color: coral;
+    width: 300px;
+    border: none;
+    color: whitesmoke;
+    float: left;
+
+}
+#login .login_btn a:hover{
+    color: blue;
+    float: left;
+
+}
+#login .forgot_password{
+    text-align: right;
+    margin-top: 20px;
+}
+a{
+    text-decoration:none;
+}
+body {
+    background-image: url("file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/cladnnad.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    
+
+

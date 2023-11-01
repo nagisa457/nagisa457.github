@@ -1,0 +1,147 @@
+@media(max-width:768px) {
+    #carousel-id .item 
+    {
+        height: 300px;
+    }
+}
+.carousel .item img
+{
+    width: 200%;
+}
+
+.zhuces{
+margin-top: 8px;
+margin-right: 10px;
+}
+
+/* 国创，日本，电影 */
+.row .col-lg-4 {
+margin-top: 10px;
+margin-bottom: 20px;
+text-align: center;
+border: 1px solid black;
+background-color: rgb(240, 239, 239);
+height: 350px;
+}
+.img-circle {
+margin-top: 20px;
+image-width: 250px;
+} 
+.mod-cover-list-name
+{
+    
+    font-size: 25px;
+    color:black;
+
+}
+.mod-cover-list-name-game{
+    font-size: 25px;
+    color:black;
+    margin-left: 145px;
+}
+.btn btn-info btn-xs
+{
+    font-size: 25px;
+  height: 15px;
+}
+/* 强势推荐作品 */
+.in-anishe-text{
+/* border: 2px solid rgb(27, 231, 27); */
+text-align: center;
+
+    font-size: 16px;
+
+}
+#gengduo{
+float: right;
+margin-right: 50px;
+
+}
+.in-anishe-text img {
+width:365px;
+height: 470px;
+display: block;
+margin: 0px auto;
+
+}
+.in-anishe-text-re img{
+    width:365px;
+    height: 252px;
+    display: block;
+    margin: 0px auto;
+
+}
+.mod-cover-list-mask {
+
+position: relative;
+left: 0px;
+display: block;
+width: 133px;
+height: 22px;
+background-color: rgba(0,0,0,0.6);
+color: #fff;
+text-align:center;
+margin: 0px auto;
+
+}
+.mod-cover-list-text:hover{
+color: #fff;
+font-size: 18px;
+}
+.h3{
+margin-left: 20px;
+font-weight:bolder;
+
+
+}
+#row2{
+background:rgb(245, 245, 245);
+}
+#tui{
+border: 1px solid gray;
+}
+
+/* 页脚 */
+#foot{
+    margin-left: 0px;
+width: 2250px;
+height: 500px;
+background:rgb(18, 15, 22);
+color: #fff;
+
+border:red 1px solid;
+}
+
+#xiao {
+    margin-top: -15px;
+    filter: invert(100%);
+    width: 200px;
+}
+#foot img{
+width: 70px;
+height: 70px;
+margin: 3px;
+}
+#game-start{
+    margin-left: 124px;
+}
+#mod-tag-item-game{
+    margin:auto;
+}
+#mod-tag-item-game-teshu{
+    border: 1px solid black;
+}
+#mod-tag-item-game-cs{
+    margin-left: 65px;
+}
+#game-start-cs{
+    margin-left: 124px;
+}
+#foot-left{
+   
+    width: 200px;
+    height: 500px;
+    background-color:rgb(18, 15, 22);
+    margin-left: 0px;
+   
+}

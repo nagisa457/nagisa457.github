@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+
+    <video autoplay loop muted controls  hidden> <source src="2b53_1fa5_1b18_8e38790dad308ec1c1ac0cf3effd4d30.mp3" type="audio/mpeg"></video>
+    <audio autoplay="autoplay"  src="2b53_1fa5_1b18_8e38790dad308ec1c1ac0cf3effd4d30.mp3">
+    </audio>
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            a<span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <spn class="icon-bar"></spn>
+                        </button>
+                    <a class="navbar-brand" href="#">
+                <img src="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/ea88c8c7e0ff4a5408802fd4032c923.png" id="xiao" alt="" style="width:190px;height:50px;" />
+              </a>
+                </div>
+                    
+                  <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- 首页标题 -->
+
+                      <li><a class="active" href=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span>首页<span class="sr-only">(current)</span></a></li>
+                      <li><a href=""><span class="glyphicon glyphicon-time" aria-hidden="true"></span>资源更新时间表</a></li>
+                      <li><a href=""><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>友站链接</a></li>
+
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                          <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>资源分类<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" style="font-family: 'STXingkai', '行楷';">动漫</a></li>
+                          <li><a href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html"style="  font-family: 'STXingkai', '行楷';">小说</a></li>
+                          <li><a href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E6%BC%AB%E7%94%BB/%E6%BC%AB%E7%94%BB.html"style="font-family: 'STXingkai', '行楷';">漫画</a></li>
+                          <li><a href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E7%94%B5%E5%BD%B1/%E8%A7%86%E9%A2%91.html"style="font-family: 'STXingkai', '行楷';">电影</a></li>
+                          <li><a href="https://www.3dmgame.com/" style="font-family: 'STXingkai', '行楷';">游戏</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">官方延伸</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                          <a data-toggle="modal" href='#modal-id'><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>关于</a>
+                      </li>
+                    </ul>
+
+                    <form class="navbar-form navbar-left">
+                      
+                        <form id="search-form">
+                            <input type="text" id="search-input" placeholder="输入搜索关键字">
+                            <button type="submit">搜索</button>
+                        </form>
+                    </form>
+                    </form>
+
+                    <ul class="nav navbar-nav navbar-right">
+                      <!-- <li><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>帮助</a></li> -->
+                      <li><a href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C/login.html">登录</a></li>
+                      <button type="注册" class="btn btn-default zhuces"><a href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C/regist.html">注册</a></button>
+                    </ul> 
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+               
+              </nav><hr>
+
+
+
+              <!-- 轮播图 -->
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                    </ol>
+                  
+                    
+                    <div class="carousel-inner" role="listbox">
+                      <!-- 轮播0 -->
+                      <div class="item active">
+                        <img src="file:///C:\Users\ryt\Desktop\个人资源小站\cladnnad.png" alt="CLADNAD">
+                        <div class="carousel-caption">
+                          
+                            <h1 style="font-family: 'STXingkai', '行楷';">CLANNAD</h1>
+                        </div>
+                      </div>
+                      <!-- 轮播1 -->
+                      <div class="item">
+                        <img src="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E8%AF%A1%E7%A7%98%E4%B9%8B%E4%B8%BB.jpg" alt="诡秘之主">
+                        <div class="carousel-caption">
+                            <h1 style="font-family: 'STXingkai', '行楷';">诡秘之主</h1>
+                        </div>
+                      </div>
+                      <!-- 轮播2 -->
+                      <div class="item">
+                          <img src="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8C%96%E7%89%A9%E8%AF%AD.jpg" alt="化物语">
+                          <div class="carousel-caption">
+                            <h1 style="font-family: 'STXingkai', '行楷';">化物语</h1>
+                          </div>
+                        </div>
+                        <!-- 轮播3 -->
+                      <div class="item">
+                          <img src="C:\Users\ryt\Desktop\个人资源小站\坚如磐石.webp" alt="坚如磐石">
+                          <div class="carousel-caption">
+                              <h1 style="font-family: 'STXingkai', '行楷';">坚如磐石</h1>
+                        
+                          </div>
+                        </div>
+                      
+                      <!-- 轮播4 -->
+                      <div class="item">
+                          <img src="https://pic.baike.soso.com/ugc/baikepic2/0/20220620113220-657605093_jpg_1368_770_693190.jpg/800" alt="ATRI -My Dear Moments">
+                          <div class="carousel-caption">
+                              <h1 style="font-family: 'STXingkai', '行楷';">ATRI -My Dear Moments</h1>
+                          </div>
+                        </div>
+                      
+                    </div>
+                  
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+
+                
+                <hr>
+                <audio autoplay loop>
+                    <source src="file:///C:\Users\ryt\Desktop\个人资源小站\2b53_1fa5_1b18_8e38790dad308ec1c1ac0cf3effd4d30.mp3" type="audio/mpeg">
+                  
+                </audio>
+                <!-- 国创,日本,电影 -->
+                <div id="row1" class="row">
+                <!-- 国创 -->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <img class="img-circle" src="https://pic.rmb.bdstatic.com/bjh/down/d9175f38866b705f245cffdd490e6015.jpeg" alt="Generic placeholder image" width="230" height="230">
+                        <h2 style="font-family: 'STXingkai', '行楷';">国创</h2>
+                        
+                        <p><a class="btn btn-success" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%9B%BD%E5%88%9B/china.html" role="button">点击进入 »</a></p>
+                  </div>
+                <!-- 外国-->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <img class="img-circle" src="file:///C:\Users\ryt\Desktop\个人资源小站\电锯人.jpg" alt="Generic placeholder image" width="230" height="230">
+                        <h2 style="font-family: 'STXingkai', '行楷';">外国熟肉</h2>
+                        <p><a class="btn btn-success" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" role="button">点击进入 »</a></p>
+                  </div>
+                <!-- 电影 -->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <img class="img-circle" src="file:///C:\Users\ryt\Desktop\个人资源小站\THE KITE RUNNER.jpg" alt="Generic placeholder image" width="230" height="230">
+                        <h2 style="font-family: 'STXingkai', '行楷';">外国生肉<span style="font-size: 12px; margin-left: 10px;">(无汉化)</span></h2>
+                        
+                        <p><a class="btn btn-success" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" role="button">点击进入 »</a></p>
+                  </div>
+                </div>
+
+
+
+
+                <!--  -->
+                <div class="row" id="row2">
+                    <h3 class="h3">小说推荐<a id="gengduo" class="btn btn-success btn-sm" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" role="button">点此查看更多 »</a></h3>
+                    <!-- 推荐1 -->
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                        <div class="in-anishe-text">
+                            <img alt="赘婿" src="https://pic.baike.soso.com/p/20140416/20140416005547-1665653292.jpg">
+                            <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-mask" title="赘婿">
+                            <span class="mod-cover-list-text">更新至1188章</span>
+                            </a>
+                            <h5>
+                            <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-name">赘婿
+    
+                            </a>
+                            </h5>
+                            <p><a class="btn btn-info btn-xs" href="#" role="button" font-size: 25px;>点击查看最新章节»</a></p>
+                            <p>
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">国创</a>
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">古风 架空</a>
+                            </p>
+                        </div>
+        
+                    </div>
+                    <!-- 推荐2 -->
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                            <div class="in-anishe-text">
+                                <img alt="道诡异仙" src="file:///C:\Users\ryt\Desktop\个人资源小站\道诡异仙.jpg">
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-mask" title="斗罗大陆">
+                                <span class="mod-cover-list-text">更新至番外2</span>
+                                </a>
+                                <h5>
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-name">道诡异仙</a>
+                                </h5>
+                                <p><a class="btn btn-info btn-xs" href="https://www.qidian.com/all" role="button">点击查看最新章节 »</a></p>
+                                <p>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">国创</a>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">克苏鲁 恐怖 悬疑</a>
+                                </p>
+                            </div>
+            
+                    </div>
+                    <!-- 推荐3 -->
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                            <div class="in-anishe-text">
+                                <img alt="仙逆" src="file:///C:\Users\ryt\Desktop\个人资源小站\仙逆.jpg">
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-mask" title="仙逆">
+                                <span class="mod-cover-list-text">更新至2088章</span>
+                                </a>
+                                <h5>
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-name">仙逆</a>
+                                </h5>
+                                <p><a class="btn btn-info btn-xs" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" role="button">点击查看最新章节  »</a></p>
+                                <p>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">国创</a>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">玄幻 休闲 后宫</a>
+                                </p>
+                            </div>
+                    </div>
+                    <!-- 推荐4 -->
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                            <div class="in-anishe-text">
+                                <img alt="宿命之环" src="file:///C:\Users\ryt\Desktop\个人资源小站\宿命之环.webp">
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-mask" title="宿命之环">
+                                <span class="mod-cover-list-text">更新至439章</span>
+                                </a>
+                                <h5>
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-name">宿命之环</a>
+                                </h5>
+                                <p><a class="btn btn-info btn-xs" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" role="button">点击查看最新章节 »</a></p>
+                                <p>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">国创</a>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">克苏鲁 恐怖 悬疑</a>
+                                </p>
+                            </div>
+                    </div>
+                    <!-- 推荐5 -->
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                            <div class="in-anishe-text">
+                                <img alt="朋克街13号" src="file:///C:\Users\ryt\Desktop\个人资源小站\朋克街13号.webp">
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-mask" title="朋克街13号">
+                                <span class="mod-cover-list-text">更新至番外1</span>
+                                </a>
+                                <h5>
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-name">朋克街13号</a>
+                                </h5>
+                                <p><a class="btn btn-info btn-xs" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" role="button">点击查看最新章节 »</a></p>
+                                <p>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">国创</a>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">热血 战斗 复苏</a>
+                                </p>
+                            </div>
+                    </div>
+                    <!-- 推荐6 -->
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                            <div class="in-anishe-text">
+                                <img alt="我的青春恋爱物语果然有问题" src="file:///C:\Users\ryt\Desktop\个人资源小站\果然我的青春戀愛喜劇搞錯了.jpg">
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-mask" title="我的青春恋爱物语果然有问题">
+                                <span class="mod-cover-list-text">连载中</span>
+                                </a>
+                                <h5>
+                                <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-cover-list-name">我的青春恋爱物语果然有问题</a>
+                                </h5>
+                                <p><a class="btn btn-info btn-xs" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" role="button">点击查看最新章节 »</a></p>
+                                <p>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">轻小说</a>
+                                    <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%B0%8F%E8%AF%B4/%E5%B0%8F%E8%AF%B4.html" class="mod-tag-item">日本 恋爱 校园 党争</a>
+                                </p>
+                            </div>
+                    </div>                   
+                </div>
+                <hr width="980px">
+
+                <div class="row" id="row2">
+                  <h3 class="h3">动漫推荐<a id="gengduo" class="btn btn-success btn-sm" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" role="button">点此查看更多 »</a></h3>
+                  <!-- 推荐1 -->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                      <div class="in-anishe-text">
+                          <img alt="咒术回战第二季" src="file:///C:\Users\ryt\Desktop\个人资源小站\咒术回战第二季.jpg">
+                          <a target="_blank" href="https://www.bilibili.com/" class="mod-cover-list-mask" title="咒术回战第二季">
+                          <span class="mod-cover-list-text">更新至第13话</span>
+                          </a>
+                          <h5>
+                          <a target="_blank" href="https://www.bilibili.com/" class="mod-cover-list-name">咒术回战第二季
+  
+                          </a>
+                          </h5>
+                          <p><a class="btn btn-info btn-xs" href="https://www.bilibili.com/" role="button">点击观看 »</a></p>
+                          <p>
+                              <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">日漫</a>
+                              <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">战斗 热血</a>
+                          </p>
+                      </div>
+      
+                  </div>
+                  <!-- 推荐2 -->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                          <div class="in-anishe-text">
+                              <img alt="进击的巨人最终季" src="file:///C:\Users\ryt\Desktop\个人资源小站\进击的巨人.jpeg">
+                              <a target="_blank" href="#" class="mod-cover-list-mask" title="进击的巨人最终季">
+                              <span class="mod-cover-list-text">更新至12话</span>
+                              </a>
+                              <h5>
+                              <a target="_blank" href="#" class="mod-cover-list-name">进击的巨人最终季</a>
+                              </h5>
+                              <p><a class="btn btn-info btn-xs" href="#" role="button">点击观看 »</a></p>
+                              <p>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">日漫</a>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">战斗 热血</a>
+                              </p>
+                          </div>
+          
+                  </div>
+                  <!-- 推荐3 -->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                          <div class="in-anishe-text">
+                              <img alt="AIR" src="file:///C:\Users\ryt\Desktop\个人资源小站\AIR.webp">
+                              <a target="_blank" href="#" class="mod-cover-list-mask" title="AIR">
+                              <span class="mod-cover-list-text">更新至12话</span>
+                              </a>
+                              <h5>
+                              <a target="_blank" href="#" class="mod-cover-list-name">AIR</a>
+                              </h5>
+                              <p><a class="btn btn-info btn-xs" href="#" role="button">点击观看 »</a></p>
+                              <p>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">日漫</a>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">催泪 恋爱</a>
+                              </p>
+                          </div>
+                  </div>
+                  <!-- 推荐4 -->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                          <div class="in-anishe-text">
+                              <img alt="Charlotte" src="file:///C:\Users\ryt\Desktop\个人资源小站\charlottte.webp">
+                              <a target="_blank" href="#" class="mod-cover-list-mask" title="Charlotte">
+                              <span class="mod-cover-list-text">更新至13话</span>
+                              </a>
+                              <h5>
+                              <a target="_blank" href="#" class="mod-cover-list-name">Charlotte</a>
+                              </h5>
+                              <p><a class="btn btn-info btn-xs" href="#" role="button">点击观看 »</a></p>
+                              <p>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">日漫</a>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">催泪 恋爱</a>
+                              </p>
+                          </div>
+                  </div>
+                  <!-- 推荐5 -->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                          <div class="in-anishe-text">
+                              <img alt="Angel Beats！" src="file:///C:\Users\ryt\Desktop\个人资源小站\Angel Beats！.webp">
+                              <a target="_blank" href="#" class="mod-cover-list-mask" title="Angel Beats！">
+                              <span class="mod-cover-list-text">更新至13话</span>
+                              </a>
+                              <h5>
+                              <a target="_blank" href="#" class="mod-cover-list-name">Angel Beats！</a>
+                              </h5>
+                              <p><a class="btn btn-info btn-xs" href="#" role="button">点击观看 »</a></p>
+                              <p>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">日漫</a>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item">催泪 恋爱</a>
+                              </p>
+                          </div>
+                  </div>
+                  <!-- 推荐6 -->
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                          <div class="in-anishe-text">
+                              <img alt="龙与虎" src="file:///C:\Users\ryt\Desktop\个人资源小站\龙与虎.webp">
+                              <a target="_blank" href="#" class="mod-cover-list-mask" title="龙与虎">
+                              <span class="mod-cover-list-text">更新至25话</span>
+                              </a>
+                              <h5>
+                              <a target="_blank" href="#" class="mod-cover-list-name">龙与虎</a>
+                              </h5>
+                              <p><a class="btn btn-info btn-xs" href="#" role="button">点击观看 »</a></p>
+                              <p>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item" >日漫</a>
+                                  <a target="_blank" href="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E5%8A%A8%E6%BC%AB/%E5%8A%A8%E6%BC%AB.html" class="mod-tag-item" >恋爱 校园 党争</a>
+                              </p>
+                          </div>
+                  </div>                   
+              </div>
+              <hr width="980px">
+
+
+
+              <div class="row" id="row2">
+                <h3 class="h3">游戏推荐<a id="gengduo" class="btn btn-success btn-sm" href="https://www.3dmgame.com/" role="button">点此查看更多 »</a></h3>
+                <!-- 推荐1 -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                    <div class="in-anishe-text-re">
+                        <img alt="ATRI" src="https://pic.baike.soso.com/ugc/baikepic2/0/20220620113220-657605093_jpg_1368_770_693190.jpg/800" width:200%>
+                        <a target="_blank" href="#" class="mod-cover-list-mask" title="ATRI">
+                        <span class="mod-cover-list-text">已汉化</span>
+                        </a>
+                        <h5>
+                        <a target="_blank" href="https://www.ymgal.games/" class="mod-cover-list-name-game">ATRI
+
+                        </a>
+                        </h5>
+                        <p><a class="btn btn-info btn-xs" href="https://www.ymgal.games/" role="button" id="game-start">点击下载游戏 »</a></p>
+                        <p>
+                            <a target="_blank" href="https://www.ymgal.games/" class="mod-tag-item" id="mod-tag-item-game-teshu">GALGAME</a>
+                            <a target="_blank" href="https://www.ymgal.games/" class="mod-tag-item">催泪 单女主</a>
+                        </p>
+                    </div>
+    
+                </div>
+
+
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                        <div class="in-anishe-text-re">
+                            <img alt="CS2" src="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/cs2.jpg">
+                            <a target="_blank" href="https://www.3dmgame.com/" class="mod-cover-list-mask" title="CS2">
+                            <span class="mod-cover-list-text">联机游戏</span>
+                            </a>
+                            <h5>
+                            <a target="_blank" href="https://www.3dmgame.com/" class="mod-cover-list-name-game">CS2</a>
+                            </h5>
+                            <p><a class="btn btn-info btn-xs" href="https://www.3dmgame.com/" role="button" id="game-start-cs">点击下载游戏 »</a></p>
+                            <p>
+                                <a target="_blank" href="https://www.3dmgame.com/"  class="mod-tag-item" id="mod-tag-item-game-cs">枪战游戏 多人联机</a>
+                                <a target="_blank" href="https://www.3dmgame.com/" class="mod-tag-item">STEAM 完美 5E</a>
+                            </p>
+                        </div>
+              </div>
+                <!-- 推荐2 -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                        <div class="in-anishe-text">
+                            <img alt="千恋万花" src="file:///C:\Users\ryt\Desktop\个人资源小站\千恋万花.webp">
+                            <a target="_blank" href="https://www.ymgal.games/" class="mod-cover-list-mask" title="千恋万花">
+                            <span class="mod-cover-list-text">已汉化</span>
+                            </a>
+                            <h5>
+                            <a target="_blank" href="https://www.ymgal.games/" class="mod-cover-list-name">千恋*万花</a>
+                            </h5>
+                            <p><a class="btn btn-info btn-xs" href="https://www.ymgal.games/" role="button">点击下载游戏 »</a></p>
+                            <p>
+                                <a target="_blank" href="https://www.ymgal.games/" class="mod-tag-item" id="mod-tag-item-game">GALGAME</a>
+                                <a target="_blank" href="https://www.ymgal.games/" class="mod-tag-item">恋爱 多线结局</a>
+                            </p>
+                        </div>
+        
+                </div>
+                <!-- 推荐3 -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                        <div class="in-anishe-text">
+                            <img alt="FIFA24" src="file:///C:\Users\ryt\Desktop\个人资源小站\fifa.webp">
+                            <a target="_blank" href="https://www.3dmgame.com/" class="mod-cover-list-mask" title="仙逆">
+                            <span class="mod-cover-list-text">支持简中</span>
+                            </a>
+                            <h5>
+                            <a target="_blank" href="https://www.3dmgame.com/" class="mod-cover-list-name">FIFA24</a>
+                            </h5>
+                            <p><a class="btn btn-info btn-xs" href="https://www.3dmgame.com/" role="button">点击下载游戏</a></p>
+                            <p>
+                                <a target="_blank" href="https://www.3dmgame.com/" class="mod-tag-item">动作游戏</a>
+                                <a target="_blank" href="https://www.3dmgame.com/" class="mod-tag-item">STEAM EAsport</a>
+                            </p>
+                        </div>
+                </div>
+                <!-- 推荐4 -->
+                
+                <!-- 推荐5 -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                        <div class="in-anishe-text">
+                            <img alt="生化危机4" src="file:///C:\Users\ryt\Desktop\个人资源小站\生化危机4.webp">
+                            <a target="_blank" href="https://www.3dmgame.com/" class="mod-cover-list-mask" title="生化危机4">
+                            <span class="mod-cover-list-text">已汉化</span>
+                            </a>
+                            <h5>
+                            <a target="_blank" href="https://www.3dmgame.com/" class="mod-cover-list-name">生化危机4</a>
+                            </h5>
+                            <p><a class="btn btn-info btn-xs" href="#" role="button">点击下载游戏</a></p>
+                            <p>
+                                <a target="_blank" href="https://www.3dmgame.com/  " class="mod-tag-item">单机 3A大作</a>
+                                <a target="_blank" href="https://www.3dmgame.com/" class="mod-tag-item">重制版</a>
+                            </p>
+                        </div>
+                </div>
+                <!-- 推荐6 -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" id="tui">
+                        <div class="in-anishe-text">
+                            <img alt="只狼：影逝二度" src="file:///C:\Users\ryt\Desktop\个人资源小站\只狼：影逝二度.webp">
+                            <a target="_blank" href="https://www.3dmgame.com/" class="mod-cover-list-mask" title="我的青春恋爱物语果然有问题">
+                            <span class="mod-cover-list-text">已汉化</span>
+                            </a>
+                            <h5>
+                            <a target="_blank" href="https://www.3dmgame.com/" class="mod-cover-list-name">只狼：影逝二度</a>
+                            </h5>
+                            <p><a class="btn btn-info btn-xs" href="https://www.3dmgame.com/" role="button">点击下载游戏 »</a></p>
+                            <p>
+                                <a target="_blank" href="https://www.3dmgame.com/" class="mod-tag-item">单机 3A大作</a>
+                                <a target="_blank" href="https://www.3dmgame.com/" class="mod-tag-item">续篇</a>
+                            </p>
+                        </div>
+                </div>                   
+            </div>
+
+
+          
+
+
+
+
+
+
+
+
+            <hr width="1500px">
+
+
+                <!-- 页脚 -->
+                <div id="foot">
+                    
+                
+                    <div>
+                         <div style="margin-left: 0px; "><div style="margin-top: 10px;">
+                                <a style="text-align: center; font-size: 25px;">
+                                    <div class="text"  id="game-last">欢迎加站长微信 以及QQ交流群</div> 
+                                  
+                                </a>
+                            <div style="display: inline-block;">
+                                <div> 
+
+                                    <video src="file:///C:/Users/ryt/Desktop/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%BA%90%E5%B0%8F%E7%AB%99/%E3%80%90CLANNAD%E3%80%91%E4%BC%8A%E5%90%B9%E9%A3%8E%E5%AD%90%E7%9A%8419%E7%A7%92%E8%90%8C%E5%8A%A8%E6%8C%91%E6%88%98!.mp4" height="450px" width="800px" autoplay loop muted controls style=" float:left;background-color: white;">
+                                        <p>你的浏览器不支持video标签</p>
+                                    </video>
+                                    <img style="width: 700px; height: 450px; border: 1px solid black; border-radius: 10px; box-shadow: 5px 5px 5px grey;margin-left: 0px;" src="file:///C:\Users\ryt\Desktop\个人资源小站\b5cb3be640a404dee2b77bbfceb858b.jpg" alt="站长微信" id="wechat"/>
+                                     <video src="file:C:\Users\ryt\Desktop\个人资源小站\无标题视频——使用Clipchamp制作.mp4" height="450px" width="730px"  autoplay loop muted controls style=" background-color: white;float:right;margin-left: 0px; ">
+                                            <p>你的浏览器不支持video标签</p>
+                                            
+                                   
+                                       
+                                     
+                                
+                                </div>
+
+                                <div>
+                                   </div>
+                            </div>
+                            <p></p>
+                    <p></p>
+                </div>
+
+
+
+
+                 <!--关于弹出框-->
+        <div class="modal fade" id="modal-id">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">关于</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p style="color: black; font-size: 25px;font-family: 'STXingkai', '行楷';">本网站秉承着收集资源并分享的原则，如有侵权，请致电17888888888，我们会在3日内下架作品。<br>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">了解了/关闭</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+<div id="results"></div>
+
+<script>
+$(function() {
+
+    
+    $('#search-input').on('input', function() {
+        var searchValue = $(this).val();
+        var url = 'https://api.pingcc.cn/fiction/search/title/12' + searchValue;
+        $('#search-btn').attr('href', url);
+    });
+});
+</script>
+
+</body>
+</html>
